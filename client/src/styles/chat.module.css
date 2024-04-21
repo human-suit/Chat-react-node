@@ -1,0 +1,91 @@
+.container{
+    text-align: center;
+    height: 100%;
+    width: 100vh;
+    margin: 0 auto;
+    color: white;
+}
+.flex{
+    display: flex;
+}
+.top{
+   
+    margin-top: 100px;
+    background: #347171;
+    padding: 0px 0px 20px 0px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    border: 5px solid rgb(72 145 145 / 67%);
+    border-radius: 5px;
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+    background: #316969d4;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+.roomNom{
+    padding: 5px;    
+}
+.users{
+    padding: 5px;   
+}
+.pro input{
+    margin: 0;
+    padding: 10px 100px 10px 10px;
+    color: black;
+    font-size: 14px;
+    border: none;
+    border-radius: 0.4rem;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.pro input:focus {
+    outline: none;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.button{
+    text-transform: uppercase;
+    font-weight:bold;
+    padding: 10px 15px;
+    font-size: 14px;
+    border: 0px;
+    border-radius: 5px;
+}
+.messageBar{
+    padding: 20px;
+    height: 300px;
+}
+.sendMes{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.messagebox{
+    background: #225959;
+    margin: 10px;
+    width: 150px;
+    padding: 5px 5px 5px 10px;
+    border-radius: 10px;
+    
+    text-align: left;
+}
+.me{
+    background: #225959;
+    margin: 10px;
+    width: 150px;
+    padding: 5px 5px 5px 10px;
+    border-radius: 10px;
+    text-align: left;
+    float: right;
+    margin-left: 300px;
+}
+.mes{
+    display: grid;
+}
+.userstext{
+    
+}
+.text{
+   
+}
